@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.h1 {
+  background-color: #ffd700;
+}
+
+.piada {
+  display: block;
+  font-size: 1.2em;
+  line-height: 1.4;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border: 2px solid;
+  padding: 10px;
+  background-color: rgb(238, 68, 6);
+  border-radius: 10px;
+}
+
+.botao {
+  background-color: rgb(238, 68, 6);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: rgb(51, 51, 51);
+}
+
+.favoritos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaoRemover {
+  margin: 20px;
+  background-color: rgb(238, 68, 6);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botaoRemover:hover {
+  background-color: #ff0000;
+}
